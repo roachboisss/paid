@@ -1,7 +1,7 @@
 const businessInfo = {
   "title": "Title of Page",
   "businessname": "Name of the business",
-  "heading": "NIGGER",
+  "heading": "Big title on front page",
   "heatingdescription": "The description of the heading",
   "ourservicesdescription": "Description of the Our Services title",
   "service1": "Service 1",
