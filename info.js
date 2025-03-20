@@ -11,7 +11,7 @@ const businessInfo = {
   "service3": "Service 3",
   "service3desc": "Description of service 3",
   "abouttitle": "Title for the about us",
-  "about": "About the business",
+  "abouttext": "About the business",
   "chooseus": "Why people should choose you",
   "pro1": "Features 1",
   "pro1desc": "Features 1 description",
