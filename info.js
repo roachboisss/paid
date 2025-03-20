@@ -5,8 +5,7 @@ const businessInfo = {
   "    ": "   ",
   "    ": "   ",
   "    ": "   ",
-  "    ": "   ",
-
+  "    ": "   "
 };
 
 document.addEventListener('DOMContentLoaded', function() {
