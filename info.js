@@ -1,41 +1,78 @@
 const businessInfo = {
   "title": "Title of Page",
+  
   "businessname": "Name of the business",
+  
   "heading": "Big title on front page",
+  
   "heatingdescription": "The description of the heading",
+  
   "ourservicesdescription": "Description of the Our Services title",
+  
   "service1": "Service 1",
+  
   "service1desc": "Description of service 1",
+  
   "service2": "Service 2",
+  
   "service2desc": "Description of service 2",
+  
   "service3": "Service 3",
+  
   "service3desc": "Description of service 3",
+  
   "abouttitle": "Title for the about us",
+  
   "abouttext": "About the business",
+  
   "chooseus": "Why people should choose you",
+  
   "pro1": "Features 1",
+  
   "pro1desc": "Features 1 description",
+  
   "pro2": "Features 2",
+  
   "pro2desc": "Features 2 description",
+  
   "pro3": "Features 3",
+  
   "pro3desc": "Features 3 description",
+  
   "pro4": "Features 4",
+  
   "pro4desc": "Features 4 description",
+  
   "hooktitle": "Ready to Protect Your Asphalt?",
+  
   "hookdesc": "Contact us today for a free assessment and quote. Our team is ready to help you extend the life of your pavement and enhance your property's appearance.",
+  
   "contactusdesc": "Have questions or ready to schedule service? Get in touch with our team today.",
+  
   "address": "Address of the business",
+  
   "phone": "Business phone number",
+  
   "email": "Business email",
+  
   "hours": "When you are open. Your hours, and days you are open",
+  
   "mission": "Your trusted partner for professional asphalt maintenance and repair services. Quality workmanship, superior materials, exceptional service.",
+  
   "servicearea1": "Town you service",
+  
   "servicearea2": "Town you service",
+  
   "servicearea3": "Town you service",
+  
   "servicearea4": "Town you service",
+  
   "year": "2025",
+  
   "service1name": "Service 1",
+  
   "service2name": "Service 1",
+  
   "service3name": "Service 1"
 };
 
