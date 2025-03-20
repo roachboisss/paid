@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if(document.getElementById("service3")) document.getElementById("service3").textContent = businessInfo.service3;
   if(document.getElementById("service3desc")) document.getElementById("service3desc").textContent = businessInfo.service3desc;
   if(document.getElementById("abouttitle")) document.getElementById("abouttitle").textContent = businessInfo.abouttitle;
-  if(document.getElementById("about")) document.getElementById("about").textContent = businessInfo.about;
+  if(document.getElementById("abouttext")) document.getElementById("abouttext").textContent = businessInfo.abouttext;
   if(document.getElementById("chooseus")) document.getElementById("chooseus").textContent = businessInfo.chooseus;
   if(document.getElementById("pro1")) document.getElementById("pro1").textContent = businessInfo.pro1;
   if(document.getElementById("pro1desc")) document.getElementById("pro1desc").textContent = businessInfo.pro1desc;
