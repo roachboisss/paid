@@ -1,17 +1,12 @@
 const businessInfo = {
-  "name": "The Business Name",
-  "number": "(123) 456-7890",
-  "year": "2025",
-  "businessemail": "businessemail@gmail.com",
-  "about": "About the business",
-  "owner": "John Doe",
-  "mission": "Mission statement",
-  "service1": "Service 1 name",
-  "service1desc": "About service 1",
-  "service2": "Service 2 name",
-  "service2desc": "About service 2",
-  "service3": "Service 3 name",
-  "service3desc": "About service 3"
+  "title": "Title of Page",
+  "    ": "   ",
+  "    ": "   ",
+  "    ": "   ",
+  "    ": "   ",
+  "    ": "   ",
+  "    ": "   ",
+
 };
 
 document.addEventListener('DOMContentLoaded', function() {
