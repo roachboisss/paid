@@ -2,7 +2,11 @@ const businessInfo = {
   "title": "Title of Page",
   
   "businessname": "Name of the business",
-  
+
+  "businessnameabout": "Name of the business",
+
+  "businessnamefooter": "Name of the business",
+
   "heading": "Big title on front page",
   
   "heatingdescription": "The description of the heading",
