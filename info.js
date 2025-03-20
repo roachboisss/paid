@@ -33,7 +33,10 @@ const businessInfo = {
   "servicearea2": "Town you service",
   "servicearea3": "Town you service",
   "servicearea4": "Town you service",
-  "year": "2025"
+  "year": "2025",
+  "service1name": "Service 1",
+  "service2name": "Service 1",
+  "service3name": "Service 1"
 };
 
 document.addEventListener('DOMContentLoaded', function() {
