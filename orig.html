@@ -277,34 +277,6 @@
             </div>
         </div>
     </footer>
-    
-    <script>
-        // Mobile Navigation Toggle
-        const mobileToggle = document.querySelector('.mobile-toggle');
-        const nav = document.querySelector('nav');
-        
-        mobileToggle.addEventListener('click', () => {
-            nav.classList.toggle('active');
-        });
-        
-        // Smooth Scrolling for Anchor Links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                nav.classList.remove('active');
-                
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+      <script src="scrolling.js"></script>
 </body>
 </html>
