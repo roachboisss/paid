@@ -21,7 +21,7 @@ const businessInfo = {
   "pro3desc": "Features 3 description",
   "pro4": "Features 4",
   "pro4desc": "Features 4 description",
-  "hooktitle": "Ready to Protect Your Asphalt ?",
+  "hooktitle": "Ready to Protect Your Asphalt?",
   "hookdesc": "Contact us today for a free assessment and quote. Our team is ready to help you extend the life of your pavement and enhance your property's appearance.",
   "contactusdesc": "Have questions or ready to schedule service? Get in touch with our team today.",
   "address": "Address of the business",
