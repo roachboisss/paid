@@ -27,7 +27,7 @@ const businessInfo = {
   "address": "Address of the business",
   "phone": "Business phone number",
   "email": "Business email",
-  "hours": "WHen you are open. Your hours, and days you are open",
+  "hours": "When you are open. Your hours, and days you are open",
   "mission": "Your trusted partner for professional asphalt maintenance and repair services. Quality workmanship, superior materials, exceptional service.",
   "servicearea1": "Town you service",
   "servicearea2": "Town you service",
