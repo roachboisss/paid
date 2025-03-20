@@ -255,39 +255,6 @@
             color: var(--primary);
         }
         
-        .testimonials {
-            background-color: #f1f5f9;
-        }
-        
-        .testimonial-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        
-        .testimonial-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        }
-        
-        .testimonial-text {
-            font-style: italic;
-            position: relative;
-            margin-bottom: 1.5rem;
-        }
-        
-        .testimonial-text::before {
-            content: """;
-            font-size: 4rem;
-            color: var(--secondary);
-            opacity: 0.3;
-            position: absolute;
-            left: -1rem;
-            top: -1rem;
-        }
-        
         .client-info {
             display: flex;
             align-items: center;
