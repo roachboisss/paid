@@ -3,9 +3,9 @@ const businessInfo = {
   
   "businessname": "Name of the business",
 
-  "businessnameabout": "Name of the business",
+  "nameofbusinessabout": "Name of the business",
 
-  "businessnamefooter": "Name of the business",
+  "thebusinessfooter": "Name of the business",
 
   "heading": "Big title on front page",
   
