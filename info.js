@@ -75,9 +75,9 @@ const businessInfo = {
   
   "service1name": "Service 1",
   
-  "service2name": "Service 1",
+  "service2name": "Service 2",
   
-  "service3name": "Service 1"
+  "service3name": "Service 3"
 };
 
 document.addEventListener('DOMContentLoaded', function() {
