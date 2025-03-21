@@ -151,13 +151,22 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <form>
-                            <input type="text" placeholder="Your Name" required>
-                            <input type="email" placeholder="Your Email" required>
-                            <input type="tel" placeholder="Your Phone">
-                            <input type="text" placeholder="Subject">
-                            <textarea placeholder="Your Message" required></textarea>
-                            <button type="submit" class="btn">Send Message</button>
+                        <form action="https://formspree.io/f/mzzebrqz" class="fs-form" target="_top" method="POST">
+                            <div class="fs-field">
+                                <label class="fs-label" for="name">Name</label>
+                                <input class="fs-input" id="name" name="name" required />
+                            </div>
+                            <div class="fs-field">
+                                <label class="fs-label" for="email">Email</label>
+                                <input class="fs-input" id="email" name="email" required />
+                            </div>
+                            <div class="fs-field">
+                                <label class="fs-label" for="message">Message</label>
+                                <textarea class="fs-textarea" id="message" name="message"></textarea>
+                            </div>
+                            <div class="fs-button-group">
+                                <button class="fs-button" type="submit">Send</button>
+                            </div>
                         </form>
                     </div>
                 </div>
