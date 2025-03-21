@@ -1,11 +1,11 @@
 const businessInfo = {
-  "title": "Title of Page",
+  "title": "The Driveway Man",
   
-  "businessname": "Name of the business",
+  "businessname": "The Driveway Man",
 
-  "nameofbusinessabout": "Name of the business",
+  "nameofbusinessabout": "The Driveway Man",
 
-  "thebusinessfooter": "Name of the business",
+  "thebusinessfooter": "The Driveway Man",
 
   "heading": "Big title on front page",
   
