@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url("/api/placeholder/1200/600");
+        url("images/download.jpg");
     background-size: cover;
     background-position: center;
     color: white;
