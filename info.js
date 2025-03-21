@@ -125,4 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if(document.getElementById("servicearea3")) document.getElementById("servicearea3").textContent = businessInfo.servicearea3;
   if(document.getElementById("servicearea4")) document.getElementById("servicearea4").textContent = businessInfo.servicearea4;
   if(document.getElementById("year")) document.getElementById("year").textContent = businessInfo.year;
+  if(document.getElementById("service1name")) document.getElementById("service1name").textContent = businessInfo.service1name;
+  if(document.getElementById("service2name")) document.getElementById("service2name").textContent = businessInfo.service2name;
+  if(document.getElementById("service3name")) document.getElementById("service3name").textContent = businessInfo.service3name;
 });
