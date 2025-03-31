@@ -15,17 +15,17 @@ const businessInfo = {
   
   "ourservicesdescription": "Description of the Our Services title",
   
-  "service1": "Service 1",
+  "service1": "Sealing",
   
-  "service1desc": "Description of service 1",
+  "service1desc": "Our team specilises in sealing drivewas and parking lots.",
   
-  "service2": "Service 2",
+  "service2": "Patching",
   
-  "service2desc": "Description of service 2",
+  "service2desc": "As well as sealing, we also do patching.",
   
-  "service3": "Service 3",
+  "service3": "Striping",
   
-  "service3desc": "Description of service 3",
+  "service3desc": "We also do striping for parking lots.",
   
   "abouttitle": "Title for the about us",
   
@@ -75,11 +75,11 @@ const businessInfo = {
   
   "year": "2025",
   
-  "service1name": "Service 1",
+  "service1name": "Sealing",
   
-  "service2name": "Service 2",
+  "service2name": "Patching",
   
-  "service3name": "Service 3"
+  "service3name": "Striping"
 };
 
 document.addEventListener('DOMContentLoaded', function() {
