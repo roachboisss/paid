@@ -10,6 +10,7 @@ to do
 ```
  title ------------------- Title of the page
  businessname ------------ Name of the business
+ businessnamefooter ------ Name of the business
  nameofbusinessabout ----- Name of the business
  thebusinessfooter ------- Name of the business
  heading ----------------- Text for the front page
