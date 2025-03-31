@@ -5,7 +5,7 @@ const businessInfo = {
 
   "nameofbusinessabout": "The Driveway Man",
 
-  "businessname-footer": "The Driveway Man",
+  "businessnamefooter": "The Driveway Man",
 
   "thebusinessfooter": "The Driveway Man",
 
@@ -92,6 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if(document.getElementById("title")) document.getElementById("title").textContent = businessInfo.title;
   if(document.getElementById("businessname")) document.getElementById("businessname").textContent = businessInfo.businessname;
+  if(document.getElementById("businessnamefooter")) document.getElementById("businessnamefooter").textContent = businessInfo.businessnamefooter;
   if(document.getElementById("nameofbusinessabout")) document.getElementById("nameofbusinessabout").textContent = businessInfo.nameofbusinessabout;
   if(document.getElementById("thebusinessfooter")) document.getElementById("thebusinessfooter").textContent = businessInfo.thebusinessfooter;
   if(document.getElementById("heading")) document.getElementById("heading").textContent = businessInfo.heading;
