@@ -92,7 +92,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if(document.getElementById("title")) document.getElementById("title").textContent = businessInfo.title;
   if(document.getElementById("businessname")) document.getElementById("businessname").textContent = businessInfo.businessname;
-  if(document.getElementById("businessname-footer")) document.getElementById("businessname-footer").textContent = businessInfo.businessname-footer;
   if(document.getElementById("nameofbusinessabout")) document.getElementById("nameofbusinessabout").textContent = businessInfo.nameofbusinessabout;
   if(document.getElementById("thebusinessfooter")) document.getElementById("thebusinessfooter").textContent = businessInfo.thebusinessfooter;
   if(document.getElementById("heading")) document.getElementById("heading").textContent = businessInfo.heading;
