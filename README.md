@@ -4,11 +4,13 @@ Pages for the website include: <br/>
 &ensp;&ensp;[**index page**](https://roachboisss.github.io/paid/index.html)
 <br>
 **TO DO:**
+
 ```
 to do
 ```
 <br>
 **Variables:**
+
 ```
  title ------------------- Title of the page
  businessname ------------ Name of the business
