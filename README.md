@@ -6,7 +6,8 @@ Pages for the website include: <br/>
 **TO DO:**
 
 ```
-to do
+Add images
+Update all of the variables once I get more info
 ```
 <br>
 **Variables:**
