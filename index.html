@@ -1,225 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title">Loading...</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Dakota's Pet Collars - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <div class="container header-content">
-            <a href="#" class="logo"><span id="businessname">Loading...</span></a>
-            <button class="mobile-toggle">☰</button>
+            <div class="logo">Dakota's <span>Pet Collars</span></div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="/collars/gallery/">Gallery</a></li>
+                    <li><a href="#products">Products</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    
     <section class="hero" id="home">
         <div class="container">
-            <h1 id="heading">Loading...</h1>
-            <p><a id="heatingdescription">Loading...</a></p>
-            <div class="hero-btns">
-                <a href="#contact" class="btn">Get Free Quote</a>
-                <a href="#services" class="btn btn-outline">Our Services</a>
-            </div>
+            <h1>Handmade Pet Collars</h1>
+            <p>Beautifully crafted dog and cat collars made with love in Corydon, Indiana. Quality materials, stylish designs, perfect for your furry friends.</p>
         </div>
     </section>
-    <section class="services" id="services">
+    
+    <section class="products" id="products">
         <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p id="ourservicesdescription">Loading...</p>
+            <h2 class="section-title">Our Collections</h2>
+            <div class="product-grid">
+                <div class="product-card" data-product-id="1">
+                    <div class="product-image dog-collar-small">
+                        <div class="image-nav">
+                            <button class="prev-image">&lt;</button>
+                            <button class="next-image">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Small Dog Collar</h3>
+                        <p class="product-description">These collars are perfect for small dog breeds. Measurements are 9-15 inches and made with high quality 3/4" beta biothane.</p>
+                        <div class="product-price">$17.00 plus shipping</div>
+                        <div class="color-options">
+                            <div class="color-option navy selected" data-color="navy" title="Navy"></div>
+                            <div class="color-option teal" data-color="teal" title="Teal"></div>
+                            <div class="color-option burgundy" data-color="burgundy" title="Burgundy"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-product-id="2">
+                    <div class="product-image dog-collar-medium">
+                        <div class="image-nav">
+                            <button class="prev-image">&lt;</button>
+                            <button class="next-image">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Medium Dog Collar</h3>
+                        <p class="product-description">Ideal for medium-sized breeds of dogs. Measurements are 14-20 inches and made with high quality 3/4" beta biothane.</p>
+                        <div class="product-price">$20.00 plus shipping</div>
+                        <div class="color-options">
+                            <div class="color-option navy selected" data-color="navy" title="Navy"></div>
+                            <div class="color-option teal" data-color="teal" title="Teal"></div>
+                            <div class="color-option burgundy" data-color="burgundy" title="Burgundy"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-product-id="3">
+                    <div class="product-image dog-collar-large">
+                        <div class="image-nav">
+                            <button class="prev-image">&lt;</button>
+                            <button class="next-image">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Large Dog Collar</h3>
+                        <p class="product-description">Collars for larger dogs with bigger necks. Measurements are 20-26 inches and made with high quality 3/4" beta biothane.</p>
+                        <div class="product-price">$22.00 plus shipping</div>
+                        <div class="color-options">
+                            <div class="color-option navy selected" data-color="navy" title="Navy"></div>
+                            <div class="color-option teal" data-color="teal" title="Teal"></div>
+                            <div class="color-option burgundy" data-color="burgundy" title="Burgundy"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-product-id="4">
+                    <div class="product-image cat-collar">
+                        <div class="image-nav">
+                            <button class="prev-image">&lt;</button>
+                            <button class="next-image">&gt;</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Cat Collar</h3>
+                        <p class="product-description">Comfortable and good looking collars designed for cats. Features a break away clip, made with 3/8" high quality beta biothane.</p>
+                        <div class="product-price">$7.00 plus shipping</div>
+                        <div class="color-options">
+                            <div class="color-option navy selected" data-color="navy" title="Navy"></div>
+                            <div class="color-option teal" data-color="teal" title="Teal"></div>
+                            <div class="color-option burgundy" data-color="burgundy" title="Burgundy"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('images/download.jpg')"></div>
-                    <div class="service-content">
-                        <h3 id="service1">Loading...</h3>
-                        <p id="service1desc">Loading...</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('images/download.jpg')"></div>
-                    <div class="service-content">
-                        <h3 id="service2">Loading...</h3>
-                        <p id="service2desc">Loading...</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img" style="background-image: url('images/download.jpg')"></div>
-                    <div class="service-content">
-                        <h3 id="service3">Loading...</h3>
-                        <p id="service3desc">Loading...</p>
-                        <a href="#contact" class="btn">Learn More</a>
-                    </div>
-                </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <p>Custom colors and sizes available upon request. Contact me for more information!</p>
             </div>
         </div>
     </section>
+    
     <section class="about" id="about">
         <div class="container">
+            <h2 class="section-title">About my collars</h2>
             <div class="about-content">
-                <div class="about-img" style="background-image: url('images/download.jpg')"></div>
+                <div class="about-image"></div>
                 <div class="about-text">
-                    <h2>About <a id="nameofbusinessabout">Loading...</a></h2>
-                    <p id="abouttext">Loading...</p>
-                    <a href="#contact" class="btn">Contact Us</a>
+                    <h3>Handcrafted collars in Indiana</h3>
+                    <p>All dog collars are made from high quality 3/4" beta biothane, with the cat collars being 3/8". The biothane is water proof, and stink proof, and it also looks good on your dogs or cats!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="why-choose-us">
-        <div class="container">
-            <div class="section-title">
-                <h2>Why Choose Us</h2>
-                <p id="chooseus">Loading...</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">★</div>
-                    <h3 id="pro1">Loading...</h3>
-                    <p id="pro1desc">Loading...</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔧</div>
-                    <h3 id="pro2">Loading...</h3>
-                    <p id="pro2desc">Loading...</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🛡️</div>
-                    <h3 id="pro3">Loading...</h3>
-                    <p id="pro3desc">Loading...</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">💯</div>
-                    <h3 id="pro4">Loading...</h3>
-                    <p id="pro4desc">Loading...</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="cta">
-        <div class="container">
-            <h2 id="hooktitle">Loading...</h2>
-            <p id="hookdesc">Loading...</p>
-            <a href="#contact" class="btn">Get Free Quote</a>
-        </div>
-    </section>
+    
     <section class="contact" id="contact">
         <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-                <p id="contactusdesc">Loading...</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Get In Touch</h3>
-                    <div class="contact-detail">
-                        <div class="contact-icon">📍</div>
-                        <div>
-                            <p><strong>Address:</strong><br><a id="address"></a> </p>
-                        </div>
+            <h2 class="section-title">Want to buy a collar? Contact me!</h2>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/meoarvaq" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
                     </div>
-                    <div class="contact-detail">
-                        <div class="contact-icon">📱</div>
-                        <div>
-                            <p><strong>Phone:</strong><br><a id="phone">Loading...</a></p>
-                        </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
                     </div>
-                    <div class="contact-detail">
-                        <div class="contact-icon">✉️</div>
-                        <div>
-                            <p><strong>Email:</strong><br><a id="email">Loading...</a></p>
-                        </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" required></textarea>
                     </div>
-                    <div class="contact-detail">
-                        <div class="contact-icon">🕒</div>
-                        <div>
-                            <p><strong>Hours:</strong><br><a id="hours">Loading...</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form action="https://formspree.io/f/mzzebrqz" class="fs-form" target="_top" method="POST">
-                        <div class="fs-field">
-                            <label class="fs-label" for="name">Name</label>
-                            <input class="fs-input" id="name" name="name" required />
-                        </div>
-                        <div class="fs-field">
-                            <label class="fs-label" for="email">Email</label>
-                            <input class="fs-input" id="email" name="email" required />
-                        </div>
-                        <div class="fs-field">
-                            <label class="fs-label" for="message">Message</label>
-                            <textarea class="fs-textarea" id="message" name="message"></textarea>
-                        </div>
-                        <div>
-                            <button class="btn" type="submit">Send</button>
-                        </div>
-                    </form>
-                </div>
+                    
+                    <button type="submit" class="form-button">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
+    
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
-                    <h4 id="businessnamefooter">Loading...</h4>
-                    <p id="mission">Loading...</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon">f</a>
-                        <a href="#" class="social-icon">t</a>
-                        <a href="#" class="social-icon">in</a>
-                        <a href="#" class="social-icon">ig</a>
-                    </div>
+                <div class="footer-column">
+                    <h3>Dakota's Pet Collars</h3>
+                    <p>Handmade dog collars - Indiana.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About Us</a></li>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/collars/gallery/">Gallery</a></li>
+                        <li><a href="#products">Products</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul class="footer-links">
-                        <li><a href="#" id="service1name">Loading...</a></li>
-                        <li><a href="#" id="service2name">Loading...</a></li>
-                        <li><a href="#" id="service3name">Loading...</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Service Areas</h4>
-                    <ul class="footer-links">
-                        <li><a href="#" id="servicearea1">Loading...</a></li>
-                        <li><a href="#" id="servicearea2">Loading...</a></li>
-                        <li><a href="#" id="servicearea3">Loading...</a></li>
-                        <li><a href="#" id="servicearea4">Loading...</a></li>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Dakota Wright</li>
+                        <li>Email: dakotawright1000@gmail.com</li>
+                        <li>Phone: (812) 705-3693</li>
                     </ul>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; <a id="year">Loading...</a> <a id="thebusinessfooter">Loading...</a>. All rights reserved.</p>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dakota's Pet Collars. All Rights Reserved.</p>
                 <small>Website made by Phillip Roach. Contact <a href="mailto:philliproach1111@gmail.com" target="_blank">philliproach1111@gmail.com</a> for your own website.</small>
             </div>
+            
         </div>
     </footer>
-    <script src="scrolling.js"></script>
-    <script src="info.js"></script>
+    
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle">Product Title</h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
