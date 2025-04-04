@@ -9,9 +9,9 @@ const businessInfo = {
 
   "thebusinessfooter": "The Driveway Man",
 
-  "heading": "Big title on front page",
+  "heading": "The Driveway Man",
   
-  "heatingdescription": "The description of the heading",
+  "heatingdescription": "Subtitle",
   
   "ourservicesdescription": "Description of the Our Services title",
   
